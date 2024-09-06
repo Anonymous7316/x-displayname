@@ -25,7 +25,6 @@ function App() {
         </div>
         <button type="submit" style={{width:'60px'}}>Submit</button>
      </form>
-     <br/>
      {isSubmited && <p>Full Name: {formData.firstName} {formData.lastName}</p>}
     </div>
   );

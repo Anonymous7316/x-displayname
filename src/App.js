@@ -17,11 +17,11 @@ function App() {
       <form action='' onSubmit={handleSubmit} style={{display:'flex', flexDirection:'column', width:'300px'}}>
         <div>
           <label htmlFor="firstName">First Name:</label>
-          <input name="firstName" required id="firstName"/>
+          <input type='text' name="firstName" required id="firstName"/>
         </div>
         <div>
           <label htmlFor="lastName">Last Name:</label>
-          <input name="lastName" required id="lastName"/>
+          <input type='text' name="lastName" required id="lastName"/>
         </div>
         <button type="submit" style={{width:'60px'}}>Submit</button>
      </form>
